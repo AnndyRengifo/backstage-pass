@@ -40,7 +40,7 @@ The app uses `mcp.json` to configure the GitHub MCP server connection:
 
 This means:
 - ✅ The same `mcp.json` config file is used by the vulnerable app
-- ✅ Contestants can put their GitHub PAT (personal access token) in `mcp.scan.json` and scan with `mcp-scan mcp.scan.json` to find toxic flows.
+- ✅ Contestants can put their GitHub PAT (personal access token) in `mcp.scan.json` and scan with [mcp-scan](https://github.com/invariantlabs-ai/mcp-scan) `mcp.scan.json` to find toxic flows.
 - ✅ Each user gets their own isolated MCP session with their credentials
 - ⚠️ **`mcp.json` is REQUIRED** - the app will not start without it (no hardcoded defaults)
 
